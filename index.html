@@ -1,23 +1,257 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Numeroscope</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="shortcut icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-<link rel="manifest" href="/site.webmanifest" />
-</head>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
 
-<body>
-    <div class="wrapper">
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A non illum at tempore praesentium veritatis quia commodi nisi aliquid aperiam enim minima, earum quibusdam blanditiis ex laboriosam consequatur cupiditate perspiciatis culpa libero! Enim inventore id dolore accusantium unde, dignissimos voluptas!</p>
-    </div>
-</body>
+  <body>
+    <a class="visually-hidden skip" href="#main">Skip to main content</a>
 
+    <header class="topnav">
+      <h2 class="visually-hidden">Header</h2>
+
+      <div class="wrapper topnav__wrapper">
+        <a href="/" class="topnav__homelink">
+          <img
+            src="/Images/Logo-Numeroscope.svg"
+            alt="Numeroscope Homepage"
+            class="topnav_logo"
+          />
+        </a>
+
+        <nav>
+          <ul class="topnav__links">
+            <li class="topnav__item">
+              <a href="" class="topnav__link">Features</a>
+            </li>
+            <li class="topnav__item">
+              <a href="" class="topnav__link">Pricing</a>
+            </li>
+            <li class="topnav__item">
+              <a href="" class="topnav__link">About</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="wrapper hero__wrapper">
+          <!-- LEFT SIDE -->
+          <div class="hero__content">
+            <h1>Decode Your Numerological Path</h1>
+
+            <p>
+              Numeroscope transforms your date of birth into deep personal
+              insights. Discover your Life Path, daily energies, and connect
+              with expert numerologists.
+            </p>
+
+            <div class="hero__buttons">
+              <a href="#" class="btn btn-primary">Discover</a>
+              <a href="#" class="btn btn-secondary">Booking</a>
+            </div>
+          </div>
+
+          <!-- LOSHU GRID -->
+          <div class="loshu-grid">
+            <div>4</div>
+            <div>9</div>
+            <div>2</div>
+            <div>3</div>
+            <div>5</div>
+            <div>7</div>
+            <div>8</div>
+            <div>1</div>
+            <div>6</div>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <div class="wrapper features__grid">
+          <div class="feature">
+            <div class="feature__icon">📱</div>
+            <h3>Life Path Number</h3>
+            <p>
+              Discover your core numerological blueprint and what it means for
+              your destiny.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon">🔔</div>
+            <h3>Daily Energy</h3>
+            <p>
+              Receive personalized daily insights calibrated to your unique
+              number vibration.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon">💬</div>
+            <h3>Compatibility</h3>
+            <p>
+              Explore the numerological connections between you and the people
+              in your life.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon">📱</div>
+            <h3>AI Numerology Chat</h3>
+            <p>
+              Ask anything and receive calm, guidance-focused answers from your
+              AI guide.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon">🔔</div>
+            <h3>1-on-1 Sessions</h3>
+            <p>
+              Book private sessions with expert numerologists for deep personal
+              readings.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature__icon">💬</div>
+            <h3>Weekly Trends</h3>
+            <p>
+              Visualize your energy flow across the week with beautiful insight
+              charts.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="highlight">
+        <div class="wrapper highlight__wrapper">
+          <h2>Provides Life Changing Advice</h2>
+
+          <p class="highlight__text">
+            Numeroscope turns your numbers into clear guidance—helping you
+            understand yourself, choose the right timing, and make confident
+            life decisions every day.
+          </p>
+
+          <div class="numerology-visual">
+            <div class="grid">
+              <span>1</span><span>2</span><span>3</span> <span>4</span
+              ><span>5</span><span>6</span> <span>7</span><span>8</span
+              ><span>9</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="wrapper testimonials__wrapper">
+          <h2>What People Are Saying</h2>
+
+          <div class="testimonials__grid">
+            <div class="testimonial">
+              <p>
+                “Numeroscope completely changed how I understand myself. The
+                insights are crazy accurate.”
+              </p>
+              <div class="testimonial__user">
+                <span class="name">Aarav K.</span>
+                <span class="role">Student</span>
+              </div>
+            </div>
+
+            <div class="testimonial">
+              <p>
+                “I use it every morning. The daily energy feature actually helps
+                me plan my day better.”
+              </p>
+              <div class="testimonial__user">
+                <span class="name">Maya R.</span>
+                <span class="role">Entrepreneur</span>
+              </div>
+            </div>
+
+            <div class="testimonial">
+              <p>
+                “The compatibility readings are insanely accurate. It explained
+                my friendships perfectly.”
+              </p>
+              <div class="testimonial__user">
+                <span class="name">Noah S.</span>
+                <span class="role">Creator</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <!-- CTA SECTION -->
+      <section class="cta">
+        <div class="wrapper cta__wrapper">
+          <h2>Begin Your Journey</h2>
+          <p>
+            Your numbers have been waiting. It only takes a moment to unlock a
+            lifetime of clarity.
+          </p>
+          <a href="#" class="btn btn-primary btn-cta">Free Trial</a>
+        </div>
+      </section>
+
+      <!-- MAIN FOOTER -->
+      <div class="footer-main">
+        <div class="wrapper footer__grid">
+          <!-- Brand Column -->
+          <div class="footer__col brand">
+            <img
+              src="/Images/Logo-Numeroscope.svg"
+              alt="Numeroscope Logo"
+              class="footer__logo"
+            />
+            <p class="brand-name">Numeroscope, LLC</p>
+          </div>
+
+          <!-- Links Columns -->
+          <div class="footer__col">
+            <h4>Company</h4>
+            <a href="#">About</a>
+            <a href="#">News & Press</a>
+            <a href="#">Careers</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <div class="footer__col">
+            <h4>Support</h4>
+            <a href="#">Customer Support</a>
+            <a href="#">Community Forum</a>
+            <a href="#">Knowledge Base</a>
+          </div>
+
+          <div class="footer__col">
+            <h4>Follow</h4>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">YouTube</a>
+          </div>
+
+          <div class="footer__col">
+            <h4>Resources</h4>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
