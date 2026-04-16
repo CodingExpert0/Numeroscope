@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Numeroscope</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -31,13 +31,13 @@
         <nav>
           <ul class="topnav__links">
             <li class="topnav__item">
-              <a href="" class="topnav__link">Features</a>
+              <a href="#features" class="topnav__link">Features</a>
             </li>
             <li class="topnav__item">
-              <a href="" class="topnav__link">Pricing</a>
+              <a href="pricing.html#pricing" class="topnav__link">Pricing</a>
             </li>
             <li class="topnav__item">
-              <a href="" class="topnav__link">About</a>
+              <a href="#about" class="topnav__link">About</a>
             </li>
           </ul>
         </nav>
@@ -58,8 +58,12 @@
             </p>
 
             <div class="hero__buttons">
-              <a href="#" class="btn btn-primary">Discover</a>
-              <a href="#" class="btn btn-secondary">Booking</a>
+              <a href="pricing.html#dashboard" class="btn btn-primary"
+                >Discover</a
+              >
+              <a href="pricing.html#sessions" class="btn btn-secondary"
+                >Booking</a
+              >
             </div>
           </div>
 
@@ -77,7 +81,7 @@
           </div>
         </div>
       </section>
-      <section class="features">
+      <section id="features" class="features">
         <div class="wrapper features__grid">
           <div class="feature">
             <div class="feature__icon">📱</div>
@@ -195,7 +199,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="about">
       <!-- CTA SECTION -->
       <section class="cta">
         <div class="wrapper cta__wrapper">

@@ -506,6 +506,64 @@
         width: 100%;
       }
     }
+
+    /* DASHBOARD LAYOUT */
+    .dashboard {
+      background: #020617;
+      color: white;
+      min-height: 100vh;
+    ;
+    }
+
+    .dashboard__wrapper {
+      display: flex;
+    }
+
+    /* SIDEBAR */
+    .sidebar {
+      width: 220px;
+      background: #0f172a;
+      padding: 30px;
+      min-height: 100vh;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 20px;
+    }
+
+    .sidebar li {
+      padding: 12px 0;
+      opacity: 0.7;
+      cursor: pointer;
+    }
+
+    .sidebar li.active {
+      color: var(--c-teal);
+      font-weight: bold;
+    }
+
+    /* CONTENT */
+    .dashboard__content {
+      flex: 1;
+      padding: 60px;
+    }
+
+    /* SIMPLE CARDS */
+    .pricing__grid {
+      display: flex;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .pricing__card {
+      background: #0f172a;
+      padding: 30px;
+      border-radius: 16px;
+      width: 250px;
+    }
+    
   }
   @layer utility {
     .visually-hidden {
